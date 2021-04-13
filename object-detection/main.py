@@ -2,8 +2,7 @@
 Object Detection In OpenCv
 """
 import cv2
-import cmake
-import dlib
+
 class ObjectDetector(object):
     classNames = []
     with open('files/coco.names', 'r') as reader:
