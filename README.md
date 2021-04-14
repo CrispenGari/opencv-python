@@ -9,6 +9,6 @@
 <img src="https://img.shields.io/static/v1?label=package&message=pandas&color=9cf"/>
 <img src="https://img.shields.io/static/v1?label=package&message=matplotlib&color=success"/>
 <img src="https://img.shields.io/static/v1?label=editor&message=jupyter-notebook&color=brightgreen"/>
-<img src="https://img.shields.io/static/v1?label=package&message=dlib-notebook&color=green"/>
+<img src="https://img.shields.io/static/v1?label=package&message=dlib&color=green"/>
 </p>
 
