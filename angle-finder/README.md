@@ -11,12 +11,12 @@ This is an opencv application that finds the angles between 2 straight lines.
 ### Basic Mathematical Implementation
 * The angle between two lines is found as the `arctan` of `the gradients of two lines` divided by `1 + the product of the 2 gradients`:
 
-<img src="https://github.com/CrispenGari/Opencv-Python/blob/main/angle-finder/angle-between-two-lines.png" alt="angle-between-two-lines"/>
+<img align="center" src="https://github.com/CrispenGari/Opencv-Python/blob/main/angle-finder/angle-between-two-lines.png" alt="angle-between-two-lines"/>
 
 * The angle that will be returned, is an angle in `Radians`
 
 ## Demo
-<img src="https://github.com/CrispenGari/Opencv-Python/blob/main/angle-finder/bandicam%202021-04-14%2012-26-30-705.jpg" alt="demo"/>
+<img align="center" src="https://github.com/CrispenGari/Opencv-Python/blob/main/angle-finder/bandicam%202021-04-14%2012-26-30-705.jpg" alt="demo"/>
 
 ### Coding implementation
 * We will read an image
