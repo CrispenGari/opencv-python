@@ -11,8 +11,8 @@
 </p>
 
 ### Demo
-<img align="center" src="https://github.com/CrispenGari/Opencv-Python/blob/main/angle-finder/bandicam%202021-04-14%2012-26-30-705.jpg" alt="demo"/>
-<img align="center" src="https://github.com/CrispenGari/Opencv-Python/blob/main/angle-finder/bandicam%202021-04-14%2012-26-30-705.jpg" alt="demo"/>
+<img align="center" src="https://github.com/CrispenGari/Opencv-Python/blob/main/QR-Decoder/bandicam%202021-04-16%2012-14-51-451.jpg" alt="demo"/>
+<img align="center" src="https://github.com/CrispenGari/Opencv-Python/blob/main/QR-Decoder/bandicam%202021-04-16%2012-15-10-292.jpg" alt="demo"/>
 
 ### Required packages:
 * opencv
