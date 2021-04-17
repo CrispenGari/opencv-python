@@ -4,6 +4,7 @@
 <p align="center">
 <img src="https://img.shields.io/static/v1?label=language&message=python&color=green"/>
 <img src="https://img.shields.io/static/v1?label=package&message=opencv&color=yellow"/>
+<img src="https://img.shields.io/static/v1?label=package&message=numpy&color=blueviolet"/>
 </p>
 
 ## Demo
