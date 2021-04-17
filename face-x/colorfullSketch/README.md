@@ -15,7 +15,7 @@
 </p>
 
 ## Demo
-<img src="https://github.com/CrispenGari/Opencv-Python/blob/main/face-x/images/bandicam%202021-04-12%2017-53-41-245.jpg" alt="demo" align="center"/>
+<img src="https://github.com/CrispenGari/Opencv-Python/blob/main/face-x/images/bandicam%202021-04-17%2022-20-34-901.jpg" alt="demo" align="center"/>
 
 
 ### `Code` 
