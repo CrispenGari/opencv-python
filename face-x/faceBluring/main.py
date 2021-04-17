@@ -1,4 +1,5 @@
 import cv2
+import numpy as np
 class Paths:
     MY_FACE='../images/me.jpg'
     CASSCADE_CASSIF_PATH = '../files/haarcascade_frontalface_default.xml'
@@ -12,11 +13,14 @@ class BlurFace(object):
         imageGray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
         faceClassifier = cv2.CascadeClassifier(Paths.CASSCADE_CASSIF_PATH)
         faces = faceClassifier.detectMultiScale(imageGray, 1.3, 1)
+        originalImage = image.copy()
         for (x, y, w, h) in faces:
             face = image[y: y + h, x: x + w]
             face = cv2.blur(face, ksize=(19, 19))
             image[y: y + h, x: x + w] = face
-        cv2.imshow("Face Bluring", image)
+
+        allImages = np.hstack([originalImage, image])
+        cv2.imshow("Face Bluring", allImages)
         cv2.waitKey(0)
 if __name__ == '__main__':
     blurFace = BlurFace(Paths.MY_FACE)
