@@ -1,6 +1,12 @@
 # Blur Background -- Facex
 * This program detects human face(s) using haarcascade_fontalface classifier from opencv and create an image with the whole body blured.
 
+<p align="center">
+<img src="https://img.shields.io/static/v1?label=language&message=python&color=green"/>
+<img src="https://img.shields.io/static/v1?label=package&message=opencv&color=yellow"/>
+<img src="https://img.shields.io/static/v1?label=package&message=numpy&color=blueviolet"/>
+</p>
+
 ## Demo
 <img src="https://github.com/CrispenGari/Opencv-Python/blob/main/face-x/images/bandicam%202021-04-12%2017-53-41-245.jpg" alt="demo" align="center"/>
 

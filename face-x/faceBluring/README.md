@@ -1,4 +1,4 @@
-# Blur Background -- Facex
+# Face Bluring -- Facex
 * This program detects human face(s) using haarcascade_fontalface classifier from opencv and blur the faces detected leaving the whole body.
 
 <p align="center">
