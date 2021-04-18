@@ -9,7 +9,7 @@
 
 ### Demo:
 
-<img src="https://img.shields.io/static/v1?label=language&message=python&color=green" alt="demo"/>
+<img src="https://github.com/CrispenGari/Opencv-Python/blob/main/selfDrivingCars/lane-detection/bandicam%202021-04-18%2022-41-01-429.jpg" alt="demo"/>
 
 ### What are vertices?
 * These are points that forms a tri-angle from an image
