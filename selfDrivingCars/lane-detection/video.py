@@ -21,6 +21,7 @@ def regionOfInterest(image, vertices):
 
 while cap.isOpened():
     ret, image = cap.read()
+    image = cv2.resize(image, (int(image.shape[1]*.6), int(image.shape[0]*.6)))
 
     # REGION OF INTEREST VERTICES
     (height, width) = image.shape[:2]
@@ -30,7 +31,7 @@ while cap.isOpened():
     # CREATE A GRAY IMAGE
     grayImage = cv2.cvtColor(image, cv2.COLOR_BGRA2GRAY)
     # CREATE IMAGE CANNY (reduce some noise on the image, USE LARGE THRESHOLD VALUES)
-    cannyImage = cv2.Canny(grayImage, 200, 150)
+    cannyImage = cv2.Canny(grayImage,200, 150)
     # GET THE REGION OF INTEREST FROM THE IMAGE
     croppedImage = regionOfInterest(cannyImage, np.array([roi_vertices], np.int32))
 

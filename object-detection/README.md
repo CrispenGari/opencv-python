@@ -6,6 +6,6 @@
 
 
 ### Downloads of Files
-* [frozen_inference_graph.pb](https://github.com/datitran/object_detector_app/blob/master/object_detection/ssd_mobilenet_v1_coco_11_06_2017/frozen_inference_graph.pb)
-* [ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt](https://gist.github.com/dkurt/54a8e8b51beb3bd3f770b79e56927bd7)
-* [coco.names]()
+* [frozen_inference_graph.pb](https://github.com/sidpro-hash/Object-Detection/blob/main/frozen_inference_graph.pb)
+* [ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt](https://github.com/sidpro-hash/Object-Detection/blob/main/ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt)
+* [coco.names](https://github.com/sidpro-hash/Object-Detection/blob/main/coco.names)
