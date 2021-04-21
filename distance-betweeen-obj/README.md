@@ -1,5 +1,5 @@
 ## Distance between 2 objects OpenCV
-This calculates the distance between two points on the left-click of the mouse. The points are then labeled respectively
+This calculates the distance between two points (in pixels) on the left-click of the mouse. The points are then labeled respectively
 to with letters A-Z.
 
 <p align="center">
@@ -12,7 +12,7 @@ to with letters A-Z.
 ## Demo
 
 <p align="center">
-<img src="https://img.shields.io/static/v1?label=language&message=python&color=green"/>
+<img src="https://github.com/CrispenGari/Opencv-Python/blob/main/distance-betweeen-obj/bandicam%202021-04-21%2022-29-50-697.jpg"/>
 </p>
 
 ## The math behind:
