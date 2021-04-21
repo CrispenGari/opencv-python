@@ -1,6 +1,7 @@
 
 import cv2
 import numpy as np
+import stackedImages
 cap = cv2.VideoCapture('./lane-detection/solidWhiteRight.mp4')
 carCascade = cv2.CascadeClassifier('./objectDetection/files/car.xml')
 fps = cap.get(cv2.CAP_PROP_FPS)
@@ -37,20 +38,20 @@ def detectCars(frame):
             # cv2.imshow("", finalCar)
     for (x, y, w, h) in cars:
         cv2.rectangle(frame, (x, y), (x+ w, h +y), (0, 255, 0), 2)
-        cv2.rectangle(imageBlack, (x, y), (x + w, h + y), (0, 255, 0), 2)
+        # cv2.rectangle(imageBlack, (x, y), (x + w, h + y), (0, 255, 0), 2)
 
-    return np.hstack([frame, imageBlack])
+    return frame, imageBlack
 
 def detectLines():
     while cap.isOpened():
         ret, image = cap.read()
-        image = cv2.resize(image, (int(image.shape[1]*.6), int(image.shape[0]*.6)))
+        image = cv2.resize(image, (0,0), None, .52, .52)
 
         # REGION OF INTEREST VERTICES
         (height, width) = image.shape[:2]
         roi_vertices = [(0, height), (width/2 , height/2), (width, height)]
         print(roi_vertices)
-
+        print("Car moving.....")
         # CREATE A GRAY IMAGE
         grayImage = cv2.cvtColor(image, cv2.COLOR_BGRA2GRAY)
         # CREATE IMAGE CANNY (reduce some noise on the image, USE LARGE THRESHOLD VALUES)
@@ -61,9 +62,15 @@ def detectLines():
         line1 = cv2.HoughLinesP(croppedImage, rho=6, theta=np.pi / 60, threshold=160, lines=np.array([]), minLineLength=40,
                                 maxLineGap=20)
         imageWithLanes = drawLanes(image, line1)
-        image = detectCars(frame=imageWithLanes)
+        image1, image2 = detectCars(frame=imageWithLanes)
+        blackImage1 = np.zeros_like(image1)
+        blackImage2 = np.zeros_like(image1)
+        myCar = cv2.imread('./objectDetection/car.jpg')
+        speed = cv2.imread('./objectDetection/speed.jfif')
 
-        cv2.imshow("Lanes", image)
+        allImages = stackedImages.stackImages(1, [[image1, image2], [speed, myCar]])
+
+        cv2.imshow("Self Driving Car", allImages)
         if cv2.waitKey(int(1000/fps)) & 0xFF == 27:
             cap.release()
             cv2.destroyAllWindows()
