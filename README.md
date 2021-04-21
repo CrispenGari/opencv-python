@@ -2,7 +2,7 @@
 * `Image Processing` using python open computer vision and some simple projects.
 
 <p align="center">
-<img src="https://img.shields.io/static/v1?label=language&message=python&color=green" alt=""/>
+<img src="https://github.com/CrispenGari/Opencv-Python/blob/main/CV.jpg" alt=""/>
 </p>
 
 ### Languages and packages
