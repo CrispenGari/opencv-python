@@ -17,7 +17,7 @@
 * blur take the face, blur it and put it back to it's position using numpy indexing
 
 ### `Code` 
-```
+```python
 import cv2
 
 class Paths:
