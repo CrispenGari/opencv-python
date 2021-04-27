@@ -10,7 +10,7 @@
 ### Demo
 
 <p align="center">
-<img src="https://github.com/CrispenGari/Opencv-Python/blob/main/eye-blink/ey.jpg" alt="demo" align="center"/>
+<img width="300px" src="https://github.com/CrispenGari/Opencv-Python/blob/main/eye-blink/ey.jpg" alt="demo" align="center"/>
 </p>
 
 ## Implementaion
