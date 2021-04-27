@@ -1,4 +1,4 @@
-# EYE-BLINKING -- Facex
+# EYE-BLINKING
 * This is a simple program that detects and count how many times `eyes` has been blinked with the help of `haar_cascades` from opencv.
 
 <p align="center">
@@ -7,6 +7,11 @@
 <img src="https://img.shields.io/static/v1?label=package&message=numpy&color=blueviolet"/>
 </p>
 
+### Demo
+
+<p align="center">
+<img src="https://github.com/CrispenGari/Opencv-Python/blob/main/eye-blink/ey.jpg" alt="demo" align="center"/>
+</p>
 
 ## Implementaion
 * Read the image

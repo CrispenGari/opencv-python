@@ -8,16 +8,13 @@
 </p>
 
 ## Demo
-<p align="center">
-<img src="https://github.com/CrispenGari/Opencv-Python/blob/main/eye-blink/ey.jpg" alt="demo" align="center"/>
-</p>
+<img src="https://github.com/CrispenGari/Opencv-Python/blob/main/face-x/images/bandicam%202021-04-17%2021-57-14-173.jpg" alt="demo" align="center"/>
 
 ## Implementaion
 * Read the image
 * Create a grayscale image from the original image
 * detect the face and create an image **R**egion **O**f **I**ntrest (ROI) of the face
 * blur take the face, blur it and put it back to it's position using numpy indexing
-
 ### `Code` 
 ```python
 import cv2
