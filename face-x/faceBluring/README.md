@@ -8,7 +8,9 @@
 </p>
 
 ## Demo
-<img src="https://github.com/CrispenGari/Opencv-Python/blob/main/face-x/images/bandicam%202021-04-17%2021-57-14-173.jpg" alt="demo" align="center"/>
+<p align="center">
+<img src="https://github.com/CrispenGari/Opencv-Python/blob/main/eye-blink/ey.jpg" alt="demo" align="center"/>
+</p>
 
 ## Implementaion
 * Read the image
