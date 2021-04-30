@@ -28,7 +28,7 @@ pip install numpy
 ## Imports
 * We are going to import all the required packages as follows:
 
-```
+```python
 import numpy as np
 import cv2
 import dlib
@@ -36,7 +36,7 @@ import dlib
 ### Detecting a face using `dlib`
 * To detect the position of the face in using `dlib` is just simple as follows:
 
-```
+```python
 import dlib
 import cv2
 
@@ -52,7 +52,7 @@ cv2.imshow("Image", image)
 cv2.waitKey(0)
 ```
 ### Getting face landmarks
-```
+```python
 predictor = dlib.shape_predictor('files/shape_predictor_68_face_landmarks.dat')
 imageGray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 faces = detector(imageGray)
