@@ -18,7 +18,45 @@
 * Perimeter
 
 ### Basic shapes
-* Triangle
-* Circle
 * Rectangle/Square
+````
+(x1, y1)
+     _________________________
+    |                         |
+    |                         | (h)     Area        = w * h
+    |                         |         Perimeter   = 2*w + 2*h
+    |_________________________|
+                (w)             (x2, y2)|| (w, h)
+````
 
+  
+* Circle
+### Simple Math
+````
+            
+                . (x1, y1)
+                |
+                |
+                | (x2, y2)
+                
+                Area        = pi * radius**2
+                Perimeter   = 2 * pi * radius
+                radius      = sqrt((x1, -x2)**2 + (y1, - y2)**2)
+````
+
+* Triangle
+
+### Simple Math
+````
+                    (x, y)
+                        *
+                      / | \
+                b    /  |   \    c      hc = perpendicular height
+                    /   | hc \         hc  = a * b / c 
+                   /    |     \       (c) is the base or the longest line
+                   ------------
+                        a
+                Area        =  .5 * base * height
+                Perimeter   =   a + b + c
+                side        = sqrt((x1, -x2)**2 + (y1, - y2)**2)
+````
