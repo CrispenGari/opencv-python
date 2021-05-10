@@ -8,7 +8,6 @@
 
 ## Demo
 <p align="center">
-<img  src="https://github.com/CrispenGari/Opencv-Python/blob/main/face-x/oilPaint/me.jpg" alt="demo" align="center" width="50%"/>
 <img  src="https://github.com/CrispenGari/Opencv-Python/blob/main/face-x/oilPaint/bandicam%202021-05-10%2018-58-00-821.jpg" alt="demo" align="center"/>
 </p>
 
