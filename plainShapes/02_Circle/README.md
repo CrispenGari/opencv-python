@@ -1,5 +1,5 @@
 ## Circle - Plain Shapes
-This is a simple opencv application that listens to the mouse clicks on the canvas and calculate the area and perimeter of a rectangle.
+This is a simple opencv application that listens to the mouse clicks on the canvas and calculate the area and perimeter of a circle.
 
 <p align="center">
 <img src="https://img.shields.io/static/v1?label=language&message=python&color=green"/>
@@ -75,8 +75,8 @@ while True:
     cv2.putText(board, "Area: ", (10, 30), cv2.FONT_HERSHEY_PLAIN, 1, (0, 0, 0), 1)
     cv2.putText(board, "Perimeter: ", (10, 60), cv2.FONT_HERSHEY_PLAIN, 1, (0, 0, 0), 1)
     allCanvas = np.row_stack([canvas, board])
-    cv2.imshow("RECTANGLE", allCanvas)
-    cv2.setMouseCallback("RECTANGLE", mouseEvent)
+    cv2.imshow("CIRCLE", allCanvas)
+    cv2.setMouseCallback("CIRCLE", mouseEvent)
     key = cv2.waitKey(1)
     if key & 0xFF == 27:
         break

@@ -1,7 +1,5 @@
 import numpy as np
 import cv2, math
-
-
 canvas = np.zeros((400, 512, 3))
 board = np.zeros((100, 512, 3))
 board[:] = 255
@@ -40,8 +38,8 @@ while True:
     cv2.putText(board, "Area: ", (10, 30), cv2.FONT_HERSHEY_PLAIN, 1, (0, 0, 0), 1)
     cv2.putText(board, "Perimeter: ", (10, 60), cv2.FONT_HERSHEY_PLAIN, 1, (0, 0, 0), 1)
     allCanvas = np.row_stack([canvas, board])
-    cv2.imshow("CIRCLE", allCanvas)
-    cv2.setMouseCallback("CIRCLE", mouseEvent)
+    cv2.imshow("RECTANGLE", allCanvas)
+    cv2.setMouseCallback("RECTANGLE", mouseEvent)
     key = cv2.waitKey(1)
     if key & 0xFF == 27:
         break
