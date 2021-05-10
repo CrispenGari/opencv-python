@@ -10,7 +10,7 @@ This is a simple opencv application that listens to the mouse clicks on the canv
 
 ## Demo
 <p align="center">
-<img src="https://github.com/CrispenGari/Opencv-Python/blob/main/plainShapes/02_Circle/bandicam%202021-05-10%2020-06-51-982.jpg" alt="demo" align="center"/>
+<img src="https://github.com/CrispenGari/Opencv-Python/blob/main/plainShapes/03_Triangle/bandicam%202021-05-10%2020-55-36-777.jpg" alt="demo" align="center"/>
 </p>
 
 ### How to do it?
@@ -28,9 +28,9 @@ This is a simple opencv application that listens to the mouse clicks on the canv
                         *
                       / | \
                 b    /  |   \    c      hc = perpendicular height
-                    /   | hc  \         hc = a * b / c 
-                   /    |       \       (c) is the base or the longest line
-                   --------------
+                    /   | hc \         hc  = a * b / c 
+                   /    |     \       (c) is the base or the longest line
+                   ------------
                         a
                 Area        =  .5 * base * height
                 Perimeter   =   a + b + c
