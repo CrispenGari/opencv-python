@@ -5,12 +5,12 @@ This is a simple opencv application that listens to the mouse clicks on the canv
 <img src="https://img.shields.io/static/v1?label=language&message=python&color=green"/>
 <img src="https://img.shields.io/static/v1?label=package&message=opencv&color=yellow"/>
 <img src="https://img.shields.io/static/v1?label=package&message=numpy&color=blue"/>
-<img src="https://img.shields.io/static/v1?label=package&math=numpy&color=red"/>
+<img src="https://img.shields.io/static/v1?label=package&message=math&color=red"/>
 </p>
 
 ## Demo
 <p align="center">
-<img src="https://github.com/CrispenGari/Opencv-Python/blob/main/plainShapes/01_Rectangle/bandicam%202021-05-10%2019-41-04-047.jpg" alt="demo" align="center"/>
+<img src="https://github.com/CrispenGari/Opencv-Python/blob/main/plainShapes/02_Circle/bandicam%202021-05-10%2020-06-51-982.jpg" alt="demo" align="center"/>
 </p>
 
 ### How to do it?
