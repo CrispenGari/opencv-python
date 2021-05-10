@@ -9,7 +9,7 @@ This is a simple opencv application that listens to the mouse clicks on the canv
 
 ## Demo
 <p align="center">
-<img src="https://github.com/CrispenGari/Opencv-Python/blob/main/object-detection/cat-detector/bandicam%202021-04-30%2015-46-21-230.jpg" alt="demo" align="center"/>
+<img src="https://github.com/CrispenGari/Opencv-Python/blob/main/plainShapes/01_Rectangle/bandicam%202021-05-10%2019-41-04-047.jpg" alt="demo" align="center"/>
 </p>
 
 ### How to do it?
@@ -23,8 +23,8 @@ This is a simple opencv application that listens to the mouse clicks on the canv
 (x1, y1)
      _________________________
     |                         |
-    |                         | (h)
-    |                         |
+    |                         | (h)     Area        = w * h
+    |                         |         Perimeter   = 2*w + 2*h
     |_________________________|
                 (w)             (x2, y2)|| (w, h)
 ````
