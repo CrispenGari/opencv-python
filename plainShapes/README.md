@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-<img src="https://miro.medium.com/max/1000/1*lkkDTWufdC-rqPmOJFg1Rg.jpeg" alt="demo" align="center"/>
+<img src="https://github.com/CrispenGari/Opencv-Python/blob/main/plainShapes/cover.jpeg" alt="demo" align="center"/>
 </p>
 
 ### Calculating
