@@ -8,7 +8,7 @@ This is an opencv simple application that detects the face of a cat from a video
 
 ## Demo
 <p align="center">
-<img src="https://github.com/CrispenGari/Opencv-Python/blob/main/face-x/sketch/bandicam%202021-04-13%2013-32-56-055.jpg" alt="demo" align="center"/>
+<img src="https://github.com/CrispenGari/Opencv-Python/blob/main/object-detection/cat-detector/bandicam%202021-04-30%2015-46-21-230.jpg" alt="demo" align="center"/>
 </p>
 
 ### How to do it?
