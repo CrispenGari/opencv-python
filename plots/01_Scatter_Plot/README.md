@@ -11,7 +11,7 @@ This is a simple opencv application that draws a scatter plot on a white canvas 
 
 ## Demo
 <p align="center">
-<img src="https://github.com/CrispenGari/Opencv-Python/blob/main/plainShapes/03_Triangle/bandicam%202021-05-10%2020-55-36-777.jpg" alt="demo" align="center"/>
+<img src="https://github.com/CrispenGari/Opencv-Python/blob/main/plots/01_Scatter_Plot/bandicam%202021-05-11%2019-13-56-460.jpg" alt="demo" align="center"/>
 </p>
 
 ### How to do it?
