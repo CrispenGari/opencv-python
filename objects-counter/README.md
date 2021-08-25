@@ -76,7 +76,7 @@ cv2.waitKey(0)
 ### Result
 
 <p align="center">
-<img src="https://github.com/CrispenGari/Opencv-Python/blob/main/CV.jpg" alt=""/>
+<img src="https://github.com/CrispenGari/Opencv-Python/blob/main/objects-counter/bandicam%202021-08-25%2020-47-21-981.jpg" alt=""/>
 </p>
 
 ````shell
